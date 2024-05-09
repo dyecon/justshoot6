@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+    <meta charset = "utf-8">
+    <title>Just Shoot - FAQ</title>
+    <meta name="description" content="Just Shoot: The VR Game">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+    <meta name="theme-color" content="#050024">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#050024">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#050024">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <script>
+      function topnavIcon() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+              x.className += " responsive";
+          } else {
+              x.className = "topnav";
+          }
+      }
+  </script>
+</head>
+<body>
+  <!--Menu icon for small screens-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--Top navigation bar-->
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">トップ</a>
+    <a href="download.html">ダウンロード</a>
+    <a href="faq.html" class="active">よくある質問</a>
+    <a href="contact.html">お問合せ</a>
+    <a href="javascript:void(0);" class="icon" onclick="topnavIcon()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div class="hero-image-static">
+      <div class="hero-text">
+        <h1>よくある質問</h1>
+      </div>
+  </div>
+
+  <button class="accordion">どこで遊べますか？</button>
+  <div class="panel">
+    <p>最新のイベント情報はトップページからご確認ください。</p>
+  </div>
+
+  <button class="accordion">ダウンロードできますか？</button>
+  <div class="panel">
+    <p>「ダウンロード」のページから確認できます。</p>
+  </div>
+
+  <button class="accordion">Mac版はなぜ「Intel CPUのみ」となっているのですか？</button>
+  <div class="panel">
+    <p>Apple Silicon搭載のMacではSteamVRが動作しないためです。</p>
+  </div>
+
+  <button class="accordion">開発に使ったツールを教えてください。</button>
+  <div class="panel">
+    <p>UnityとBlenderです。</p>
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
+  <footer>
+    <div class = "centered">
+      <p>© 2024 JustShoot</p>
+    </div>
+  </footer>
+</body>
+</html>

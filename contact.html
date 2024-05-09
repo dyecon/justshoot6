@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    <meta charset = "utf-8">
+    <title>Just Shoot - お問合せ</title>
+    <meta name="description" content="Just Shoot: The VR Game">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+    <meta name="theme-color" content="#050024">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#050024">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#050024">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <script>
+      function topnavIcon() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+              x.className += " responsive";
+          } else {
+              x.className = "topnav";
+          }
+      }
+  </script>
+</head>
+<body>
+    <!--Menu icon for small screens-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Top navigation bar-->
+    <div class="topnav" id="myTopnav">
+      <a href="index.html">トップ</a>
+      <a href="download.html">ダウンロード</a>
+      <a href="faq.html">よくある質問</a>
+      <a href="contact.html" class="active">お問合せ</a>
+      <a href="javascript:void(0);" class="icon" onclick="topnavIcon()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <div class="hero-image-static">
+        <div class="hero-text">
+          <h1>お問合せ</h1>
+        </div>
+    </div>
+
+    <!--Specify width:100% and height:100% to fix layout issues-->
+    <div class = "centered" style = "width:100%; height:100%">
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSek5L30tRUWhYKtPdThlDpHncHyIOCWDsCu1rC6IGQCE8--6w/viewform?embedded=true" style="display: flex; width: 100%; height: 100%; flex-direction: row; background-image:url('images/surveyBackground.jpg'); overflow: scroll;">読み込み中…</iframe>
+    </div>
+    <footer>
+      <div class = "centered">
+        <p>©2024 Team-JustShoot</p>
+      </div>
+    </footer>
+</body>
+</html>
