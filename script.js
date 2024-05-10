@@ -2,7 +2,7 @@
 
 let slideIndex = 1;
 function showSlides(n) {
-    if(document.title=="Just Shoot")
+    if(document.title=="Just Shoot 6")
     {
         let i;
     let slides = document.getElementsByClassName("mySlides");
